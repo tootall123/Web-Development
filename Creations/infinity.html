@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Infinity</title>
+ <style>
+    html {
+      align-items: center;
+      background-color: #3f75eb ;
+      color: #0e0d0c;
+      display: flex;
+      font: 22px "Courier Prime", Courier, monospace;
+      height: 100%;
+      justify-content: center;
+      margin: 0;
+    }
+    
+    body {
+      display: flex;
+      margin: 10em;
+      padding: 10em;
+    }
+
+    h1 {
+      font-size: 2em;
+      grid-column: 1 / -1;
+      margin: 0;
+      text-align: center;
+      color: #BB9137
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    a:focus,
+    a:hover {
+      color: #ce1111;
+    }
+
+    nav {
+      display: grid;
+      grid-row-gap: 1em;
+      grid-template-columns: 1fr 1fr;
+      margin: 0 1em;
+      min-width: 24em;
+  padding: 1em 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      border-radius: 2em;
+      white-space: nowrap;
+      display:inline-block;
+        border:10px solid #000;
+        padding:20px;
+        background:#F3E0BC;
+    }
+
+    li:first-child {
+      font-weight: bold;
+      line-height: 2em;
+    }   
+    
+    img {
+      border: 10px solid #313131;
+      height: auto;
+      object-fit: cover;
+      object-position: 50% 80%;
+      width: 10em;
+      border-radius: 2em; 
+    }    
+  </style>  
+</head>
+<body>
+  <nav>
+  <h1>"Hello, Tootall!"</h1>
+ 
+  <ul>
+    <li>I Am...Inevitable!</li>
+    <li><a href="https://github.com">Github</a><li>
+    <li><a href="https://auth.columbiasouthern.edu/login?service=https://mycsu.columbiasouthern.edu/Account/LogOn">School</a><li>
+    <li><a href="https://www.reddit.com/">reddit</a><li>
+    <li><a href="https://about.gitlab.com">Gitlab</a><li>
+    <li><a href="https://yandex.com">Yandex</a><li>
+    <li><a href="https://sourceforge.net">SourceForge</a><li>
+    <li><a href="https://aur.archlinux.org">AUR</a><li>
+    <li><a href="https://www.deviantart.com">Deviant</a><li>    
+      </ul> 
+ </nav>
+ <style>
+body {
+    background-image: url('https://www.color-hex.com/palettes/13344.png');
+}
+ </style>
+ 
+ <img src="https://cdn.dribbble.com/users/1810157/screenshots/4542088/infinity-gauntlet_1x.jpg">
+
+
+</body>
+</html>
+
+
+COLLAPSE
+After reviewing DHS's publication, Improving Industrial Control System Cybersecurity with Defense-in-Depth Strategies, from your reading assignment, discuss the similarities and differences between layered security and defense in depth. How would you develop a layered model for preventing access to your home?/
+
+15.26: Creating and Using Embedded Styles #DONE
+15.27: Appling Inline Styles
+15.30: Creating a Basic Two-Column Layout With CSS
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CSS 2-column layout</title>
+<style type="text/css">
+#wrapper {
+width: 90%;
+margin: 10px auto;
+}
+ 
+#top {
+padding: .5em;
+background-color: #FFCCFF;
+border-bottom: 1px solid black;
+}
+ 
+#top h1 {
+padding: 0;
+margin: 0;
+}
+ 
+#leftnav {
+float: left;
+width: 160px;
+margin: 0;
+padding: 1em;
+}
+ 
+#maincontent {
+margin-left: 200px;
+border-left: 1px solid black;
+padding: 1em;
+}
+ 
+#footer {
+clear: both;
+margin: 0;
+padding: .5em;
+color: #333333;
+background-color: #CC99FF;
+border-top: 1px solid black;
+}
+ 
+#leftnav p { margin: 0 0 1em 0;}
+#maincontent h2 { margin: 0 0 .5em 0;}
+</style>
+</head>
+ 
+<body>
+<div id="wrapper">
+ 
+<div id="top">
+<h1>Heading</h1>
+</div>
+ 
+<div id="leftnav">
+<p>
+Mauris ut diam. Cras euismod fermentum est. Nullam dignissim tempus est. Nam lorem orci, tristique quis, adipiscing id, tincidunt a, elit. Donec sodales facilisis neque.
+</p>
+</div>
+ 
+<div id="maincontent">
+<h2>Subheading</h2>
+<p>
+Donec massa pede, vestibulum ut, rhoncus faucibus, rutrum at, justo. Donec lacinia sollicitudin nulla. Proin in velit. Suspendisse potenti. Pellentesque ultricies vulputate tellus. Phasellus lorem. Phasellus ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Ut odio arcu, semper non, viverra quis, vulputate vel, sapien. Aliquam tellus tortor, cursus non, gravida id, condimentum et, tellus. Ut nulla nibh, porta ut, dignissim tristique, malesuada a, dolor. Pellentesque viverra mi vel erat gravida mollis. Quisque in purus eget nibh volutpat pellentesque. Vivamus at ante. Vestibulum eu erat. Ut magna purus, tincidunt egestas, scelerisque at, commodo id, turpis. Duis leo odio, aliquam et, sagittis a, mollis a, augue. Quisque porta nulla eget felis. Aenean suscipit pulvinar nisl.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur id metus et quam euismod tincidunt. Etiam vulputate suscipit felis. Nulla sit amet odio. Quisque vulputate justo eget purus. Donec pretium arcu nec wisi. Sed ac dolor sit amet mi egestas laoreet. Duis id wisi. Praesent est erat, accumsan in, placerat at, volutpat scelerisque, nibh. Mauris id massa vel purus euismod semper. Donec feugiat, ante sit amet porta gravida, odio felis eleifend magna, vitae egestas dui diam at wisi. Phasellus faucibus justo vitae odio.
+</p>
+</div>
+<div id="footer">
+Footer
+</div>
+</body>
+</html>
+
+
+
+Choose a sector out of the 18 available CIKRs, and conduct a study using your textbook and outside sources on cybersecurity specific to that sector. Analyze the challenges and benefits of your chosen sector. In this presentation, find at least one graphic illustrating a cybersecurity policy, model, or approach to protect your chosen sector and utilize it in your presentation.
+Your PowerPoint presentation must be a minimum of 10 slides, not counting the title slide and the reference slide. You are expected to consult outside sources, that is, go beyond what has been presented in the lesson. Use additional information in your speaker notes section of the slides.
+
+DIB Cyber Sec program
+https://dibnet.dod.mil/portal/intranet/
+
+https://www.smartdatacollective.com/ransomware-and-defense-industrial-base/
+
+
+CMMC cert for DIB contractors and private organizations
+https://www.attilasec.com/blog/what-is-cmmc-dib-contractors
+
+CIKR BID sector info, assets, and vulnerabilities
+https://hdiac.org/articles/a-primer-on-the-defense-industrial-base/
+
+https://www.lexingtoninstitute.org/the-military-helicopter-industrial-base/
+
+https://www.nist.gov/system/files/documents/2018/03/28/vickie_nist_risk_management_framework_overview-hpc.pdf
+
+VPN Exploits for graph
+https://www.bleepingcomputer.com/news/security/
+nsa-cisa-share-vpn-security-tips-to-defend-against-hackers/
+
+Defense Supply Chain Vulnerabilities
+https://www.helpnetsecurity.com/2021/06/23/defense-supply-chain-vulnerabilities/
+
+CMMC maturity level descriptions
+pyrimid graph 
