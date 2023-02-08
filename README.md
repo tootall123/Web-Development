@@ -8,5 +8,15 @@
 Web development and design: prototypes, concepts, ideas, themes, templates, and more. 
 
 
-![image](https://user-images.githubusercontent.com/77269940/217432687-ef2f60f1-b0d5-4489-ba34-56ff925c3abb.png)
+
+
+
+#UNDER CONSTRUCTION: BASH Scripts Websites, and more.
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/77269940/217456637-530a7b4d-0dbf-4319-9bd3-c2032ee41c50.png)
 
