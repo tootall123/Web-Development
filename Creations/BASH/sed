@@ -1,0 +1,9 @@
+#Using sed 
+
+remove line from file: sed -i '2d'(line number) filename
+
+multiple lines: sed -i '2,5,9' filename
+
+remove lines with specific string: sed -i '/string/d' filename
+
+remove lines starting with a specific word: '/^word/d' filename
